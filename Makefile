@@ -38,3 +38,7 @@ lint: $(GOPATH)/bin/golangci-lint
 
 clean:
 	rm -rf $(BUILD_DIR)
+
+
+install:
+	go install ./...
